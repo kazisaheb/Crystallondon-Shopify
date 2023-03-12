@@ -1,0 +1,26 @@
+{
+  "sections": {
+    "list-collections": {
+      "type": "list-collections-template",
+      "settings": {
+        "section_width": false,
+        "page_title": "Collections",
+        "display_type": "all",
+        "sort": "alphabetical",
+        "product_count": true,
+        "collection_btn": "Shop Now",
+        "style": "style3",
+        "grid-spacing": 4,
+        "grid": 4,
+        "tablet-grid": 3,
+        "mobile-grid": 2,
+        "collection_ttl_hm": "#fff",
+        "collection_ttl_bg_hm": "#000",
+        "collection_ttl_opt_hm": 0.7
+      }
+    }
+  },
+  "order": [
+    "list-collections"
+  ]
+}

@@ -1,0 +1,105 @@
+<div class="faqCnt page-width">
+<div class="faq-{{section.settings.pagestyle}}">
+  <div id="{{section.id}}" class="faqList">        	            
+    {% for block in section.blocks limit: section.blocks.size%}                 
+      {% if block.type == 'faqsection' and block.settings.sectiontitle != blank %}
+		<h4>{{block.settings.sectiontitle}}</h4>
+      {% endif %}    
+      {% if block.type == 'faqs' %}
+      <div class="faq-body">
+        <h5 class="panel-title fl f-jcsb j-aic">{{ block.settings.question}}{% if section.settings.pagestyle =='style1' %}<i class="ad ad-plus-l"></i>{% endif %}</h5>
+        <div id="{{ block.id }}" class="panel-content">{{ block.settings.answer}}</div>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+</div>
+<style>
+  #{{section.id}} h4 { font-weight:600;	background:{{section.settings.sec-title-bg}}; color:{{section.settings.sec-title}}; }
+</style>
+<script type="text/javascript">
+window.addEventListener('load', function() {
+  {% if section.settings.pagestyle =='style1' %}
+    $("#{{section.id}} .panel-title").click(function() {
+        $(this).toggleClass("active");
+        $(this).next().slideToggle();
+    }); 
+   $("#{{section.id}} h4+.faq-body .panel-title").addClass("active");
+  {% endif %} 
+});
+</script>
+
+{% schema %}
+  {
+    "name": "FAQ Page",
+    "settings": [
+	  
+	  {
+        "type": "paragraph",
+       	"content":"Add more content on this page from pages => Faqs page"
+      },
+	  {
+            "type": "select",
+            "id": "pagestyle",
+            "label": "Page Style",
+            "default": "style1",
+            "options": [
+              {
+                "value": "style1",
+                "label": "Style 1"
+              },
+              {
+                "value": "style2",
+                "label": "Style 2"
+              }
+            ]
+       },	 
+	 {
+        "type": "header",
+        "content": "Style2"
+      },
+	  {
+        "type": "color",
+        "id": "sec-title-bg",
+        "label": "Section Title Background",
+        "default": "#333"
+      },
+      {
+        "type": "color",
+        "id": "sec-title",
+        "label": "Section Title",
+        "default": "#eee"
+      }
+	],
+   "blocks":[
+     {
+        "type": "faqsection",
+        "name": "Section Title",
+		"settings": [
+          {
+            "type": "text",
+            "id": "sectiontitle",
+            "label": "Section Title"
+          }
+		]
+      },
+	  {
+	    "type":"faqs",
+		"name":"FAQs",
+		"settings":[			
+			{
+			"type":"text",
+			"id":"question",
+			"label":"Question"
+			},
+			{
+			"type":"textarea",
+			"id":"answer",
+			"label":"Answer"
+			}
+		 ]
+      }
+	]
+ }
+{% endschema %}

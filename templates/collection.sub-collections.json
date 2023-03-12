@@ -1,0 +1,32 @@
+{
+  "sections": {
+    "collection": {
+      "type": "sub-collections",
+      "settings": {
+        "section_width": false,
+        "pad-desk": 55,
+        "pad-ipad": 15,
+        "pad-mbl": 10,
+        "show_collection_image": true,
+        "bheight": 300,
+        "bheightipad": 200,
+        "bheightmob": 100,
+        "clr_text": "#000000",
+        "clr_bg": "#eeeeee",
+        "style": "style3",
+        "product_count": true,
+        "masonary_grid": false,
+        "grid-spacing": 10,
+        "grid": 4,
+        "tablet-grid": 3,
+        "mobile-grid": 2,
+        "collection_ttl_hm": "#ffffff",
+        "collection_ttl_bg_hm": "#000000",
+        "collection_ttl_opt_hm": 0.7
+      }
+    }
+  },
+  "order": [
+    "collection"
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "sections": {
+    "page": {
+      "type": "page-template",
+      "settings": {
+        "section_width": false,
+        "width": 1200,
+        "hide_ttl": true,
+        "hide_hdft": false,
+        "breadcrumb": true
+      }
+    },
+    "29636ac5-2450-4257-94e8-a431570fe6cc": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18024703983904__29636ac5-2450-4257-94e8-a431570fe6cc-16771249102781d637-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_5a0985ea-13fa-485e-8e5a-0392027ce292.jpg",
+            "alignment": "top",
+            "smalltitle": "Small Heading",
+            "heading1": "#000000",
+            "title": "Large Heading",
+            "heading2": "#000000",
+            "subheading": "Tell your brand's story",
+            "heading3": "#000000",
+            "slide_button_text": "Shop now",
+            "link": "shopify:\/\/collections\/heels",
+            "newTab": false,
+            "text_align": "left"
+          }
+        },
+        "template--18024703983904__29636ac5-2450-4257-94e8-a431570fe6cc-16771249102781d637-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_c2dbd1ba-90aa-4dde-a00e-a3fb888a9414.jpg",
+            "alignment": "top",
+            "smalltitle": "Small Heading",
+            "heading1": "#000000",
+            "title": "Large Heading",
+            "heading2": "#000000",
+            "subheading": "Tell your brand's story",
+            "heading3": "#000000",
+            "slide_button_text": "Shop now",
+            "link": "shopify:\/\/collections\/flats",
+            "newTab": false,
+            "text_align": "left"
+          }
+        },
+        "ae82bd1b-ffbd-401c-8cf8-bdc57d7c0537": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/custom_resized_f867a6d4-815d-4083-9be6-15021d36112a.jpg",
+            "alignment": "top",
+            "smalltitle": "Small Heading",
+            "heading1": "#000000",
+            "title": "Large Heading",
+            "heading2": "#000000",
+            "subheading": "Tell your brand's story",
+            "heading3": "#000000",
+            "slide_button_text": "Shop now",
+            "link": "shopify:\/\/collections\/indian-pumps-khussa",
+            "newTab": false,
+            "text_align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--18024703983904__29636ac5-2450-4257-94e8-a431570fe6cc-16771249102781d637-0",
+        "template--18024703983904__29636ac5-2450-4257-94e8-a431570fe6cc-16771249102781d637-1",
+        "ae82bd1b-ffbd-401c-8cf8-bdc57d7c0537"
+      ],
+      "settings": {
+        "section_width": false,
+        "box-width": 1500,
+        "top-offeset": "default",
+        "snow_effect": false,
+        "snow_style": "style1",
+        "autoplay": true,
+        "autoplay_speed": "5000",
+        "arrow": true,
+        "dots": true,
+        "txtanimation": true,
+        "animation-style": "style1",
+        "text-align": "default",
+        "btn-size-desk": "btn-md",
+        "btn-size-mob": "mob-btn-sm",
+        "ds_height": 500,
+        "tb_height": 350,
+        "mb_height": 250
+      }
+    },
+    "c7e43767-b26a-473d-b28f-43f5a9332be9": {
+      "type": "collection-banner",
+      "blocks": {
+        "template--18024703983904__c7e43767-b26a-473d-b28f-43f5a9332be9-1677148041f1482938-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "designer-heels",
+            "collection_image": "shopify:\/\/shop_images\/custom_resized_a342bc2b-c8a6-416f-9320-ffc597a2058f.jpg",
+            "collection_name": "",
+            "collection_name2": "",
+            "textalign": "center",
+            "text-left": false,
+            "collection_btn": "Shop Now",
+            "width": "50%"
+          }
+        },
+        "template--18024703983904__c7e43767-b26a-473d-b28f-43f5a9332be9-1677148041f1482938-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "flats",
+            "collection_image": "shopify:\/\/shop_images\/custom_resized_bbeb5917-071d-46a0-a7c3-fb1061fb3ed4.jpg",
+            "collection_name": "",
+            "collection_name2": "",
+            "textalign": "center",
+            "text-left": false,
+            "collection_btn": "Shop Now",
+            "width": "50%"
+          }
+        },
+        "0b9278f3-4b55-496c-95a7-fbd1135e8087": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "heels",
+            "collection_image": "shopify:\/\/shop_images\/custom_resized_5a0985ea-13fa-485e-8e5a-0392027ce292.jpg",
+            "collection_name": "",
+            "collection_name2": "",
+            "textalign": "center",
+            "text-left": false,
+            "collection_btn": "Shop Now",
+            "width": "50%"
+          }
+        },
+        "f0e4446c-d4ab-41d4-828c-b588a4852841": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "indian-pumps-khussa",
+            "collection_image": "shopify:\/\/shop_images\/custom_resized_c2dbd1ba-90aa-4dde-a00e-a3fb888a9414.jpg",
+            "collection_name": "",
+            "collection_name2": "",
+            "textalign": "center",
+            "text-left": false,
+            "collection_btn": "Shop Now",
+            "width": "50%"
+          }
+        }
+      },
+      "block_order": [
+        "template--18024703983904__c7e43767-b26a-473d-b28f-43f5a9332be9-1677148041f1482938-0",
+        "template--18024703983904__c7e43767-b26a-473d-b28f-43f5a9332be9-1677148041f1482938-1",
+        "0b9278f3-4b55-496c-95a7-fbd1135e8087",
+        "f0e4446c-d4ab-41d4-828c-b588a4852841"
+      ],
+      "settings": {
+        "title": "Collection Banner",
+        "subtitle": "Describe your products, collection, content etc...",
+        "top-offeset": "default",
+        "section_width": false,
+        "hide_mobile": false,
+        "pad-desk": 55,
+        "pad-ipad": 15,
+        "pad-mbl": 10,
+        "grid-spacing": 15,
+        "grid-spacing-mbl": 5,
+        "grid-spacing-col": 2,
+        "box-width": 50,
+        "box_bg": "#ffffff",
+        "box_txt": "#000000",
+        "disable_zoom": false,
+        "show_buttons": true,
+        "btn-size-desk": "btn-sm",
+        "btn-size-mob": "mob-btn-sm",
+        "snow_effect": false,
+        "snow_style": "style1"
+      }
+    },
+    "92b0ac4a-1ecb-4b80-b131-0dc01773a535": {
+      "type": "product-slider",
+      "settings": {
+        "title": "Our Collection",
+        "subtitle": "Describe your products, collection etc...",
+        "collection": "sandals",
+        "secondary_image": true,
+        "show_vendor": false,
+        "prlist_btn_show": false,
+        "btn_mobiles": false,
+        "show_view_all": "",
+        "show_color_swatch": true,
+        "color_type": "color",
+        "vr_bg_position": "50% 0",
+        "color_size": "small",
+        "color_style": "rounded",
+        "top-offeset": "default",
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "prbox_style": "style1",
+        "grid": 4,
+        "tablet-grid": 3,
+        "mobile-grid": 2,
+        "rows": "5",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "8a92494a-1b62-4ac1-9c89-c0d1912a5721": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18024703983904__8a92494a-1b62-4ac1-9c89-c0d1912a5721-16771339653a6bdc96-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "flats",
+            "collection_name": "",
+            "collection_btn": "Shop Now"
+          }
+        },
+        "template--18024703983904__8a92494a-1b62-4ac1-9c89-c0d1912a5721-16771339653a6bdc96-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "heels",
+            "collection_name": "",
+            "collection_btn": "Shop Now"
+          }
+        },
+        "template--18024703983904__8a92494a-1b62-4ac1-9c89-c0d1912a5721-16771339653a6bdc96-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "indian-pumps-khussa",
+            "collection_name": "",
+            "collection_btn": "Shop Now"
+          }
+        },
+        "template--18024703983904__8a92494a-1b62-4ac1-9c89-c0d1912a5721-16771339653a6bdc96-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sandals",
+            "collection_name": "",
+            "collection_btn": "Shop Now"
+          }
+        },
+        "57e4b58e-c69f-408a-8d18-ff83d85a393b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shoes",
+            "collection_name": "",
+            "collection_btn": "Shop Now"
+          }
+        }
+      },
+      "block_order": [
+        "template--18024703983904__8a92494a-1b62-4ac1-9c89-c0d1912a5721-16771339653a6bdc96-0",
+        "template--18024703983904__8a92494a-1b62-4ac1-9c89-c0d1912a5721-16771339653a6bdc96-1",
+        "template--18024703983904__8a92494a-1b62-4ac1-9c89-c0d1912a5721-16771339653a6bdc96-2",
+        "template--18024703983904__8a92494a-1b62-4ac1-9c89-c0d1912a5721-16771339653a6bdc96-3",
+        "57e4b58e-c69f-408a-8d18-ff83d85a393b"
+      ],
+      "settings": {
+        "title": "Shoes Collections",
+        "subtitle": "",
+        "top-offeset": "default",
+        "section_width": true,
+        "pad-desk": 55,
+        "pad-ipad": 15,
+        "pad-mbl": 10,
+        "section_cov": false,
+        "sec_bg_clr": "#fafafa",
+        "hide_mobile": false,
+        "enable_carousel": true,
+        "grid-spacing": 15,
+        "grid-spacing-mbl": 5,
+        "style": "style1",
+        "textalign": "text-center",
+        "leftpadzero": false,
+        "product_count": false,
+        "show_buttons": false,
+        "btn-size-desk": "btn-sm",
+        "btn-size-mob": "mob-btn-sm",
+        "grid": 4,
+        "tablet-grid": 3,
+        "mobile-grid": 2,
+        "collection_ttl_hm": "#ffffff",
+        "collection_ttl_bg_hm": "#000000",
+        "collection_ttl_bg_hm_responsive": "#000000",
+        "collection_ttl_opt_hm": 0.7,
+        "disable_zoom": false
+      }
+    }
+  },
+  "order": [
+    "page",
+    "29636ac5-2450-4257-94e8-a431570fe6cc",
+    "c7e43767-b26a-473d-b28f-43f5a9332be9",
+    "92b0ac4a-1ecb-4b80-b131-0dc01773a535",
+    "8a92494a-1b62-4ac1-9c89-c0d1912a5721"
+  ]
+}
